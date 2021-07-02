@@ -20,7 +20,7 @@ public class Main {
     }
     int x = Integer.parseInt(new String(revArrX));
     int y = Integer.parseInt(new String(revArrY));
-
+    sc.close();
     // compare
     System.out.println((x > y ? x : y));
   }

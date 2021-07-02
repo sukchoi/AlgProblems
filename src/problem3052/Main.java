@@ -7,7 +7,6 @@ public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    int[] inputNum = new int[10];
     int[] modulo = new int[10];
     for (int i = 0; i < 10; i++) {
       modulo[i] = sc.nextInt() % 42;
@@ -20,15 +19,12 @@ public class Main {
         if (modulo[i] == modulo[j]) {
           count--;
           modulo[j] = -1;
-        }
-        else if (modulo[i] != modulo[j]) {
-//          count++;
-
-        }
+        } 
       }
     }
+    sc.close();
     System.out.println(count);
-    
+
   }
 
 }

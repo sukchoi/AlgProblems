@@ -9,6 +9,7 @@ public class Main {
 
     Scanner scanner = new Scanner(System.in);
     String str = scanner.nextLine();
+    scanner.close();
     str = str.trim();
     String[] splitStr = str.split(" ");
 

@@ -4,16 +4,17 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-//    String s = sc.nextLine();
-//    char[] chArr = s.toCharArray();
-//
-//
-//    String str = new String(chArr);
-//    int newInt = Integer.parseInt(str);
-//    int answer = newInt;
-//    System.out.println(answer);
+    // String s = sc.nextLine();
+    // char[] chArr = s.toCharArray();
+    //
+    //
+    // String str = new String(chArr);
+    // int newInt = Integer.parseInt(str);
+    // int answer = newInt;
+    // System.out.println(answer);
     LinkedList<Character> ll = new LinkedList<>();
     String s = "baabaa";
+    sc.close();
     char[] chArr = s.toCharArray();
     for (char c : chArr) {
       ll.add(c);
@@ -30,7 +31,5 @@ public class Main {
         System.out.println(ll);
       }
     }
-    
-    
   }
 }
