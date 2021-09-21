@@ -18,12 +18,13 @@ public class Main {
         sumScore += scores[j];
       }
       avgScore = (double) sumScore / numOfS;
-      int count=0;
+      int count = 0;
       for (int j : scores) {
-        if(j>avgScore)
+        if (j > avgScore)
           count++;
       }
-      System.out.printf("%.3f%%",(double)count/numOfS*100);
+      System.out.printf("%.3f%%", (double) count / numOfS * 100);
     }
+    scanner.close();
   }
 }

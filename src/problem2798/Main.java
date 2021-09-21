@@ -23,8 +23,9 @@ public class Main {
         }
       }
     }
-    System.out.println(blackJack-result);
-    
+    System.out.println(blackJack - result);
+    scanner.close();
+
   }
 
 }

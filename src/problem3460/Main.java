@@ -10,19 +10,20 @@ public class Main {
     int testCase = scanner.nextInt();
     int[] tests = new int[testCase];
     for (int i = 0; i < testCase; i++) {
-      tests [i] = scanner.nextInt();
+      tests[i] = scanner.nextInt();
     }
-    for(int i=0; i< testCase; i++) {
-      for (int j =0 ; j < 20; j++) {
-        int temp = tests[i]>>j;
+    for (int i = 0; i < testCase; i++) {
+      for (int j = 0; j < 20; j++) {
+        int temp = tests[i] >> j;
         int mask = 1;
-        temp = temp&mask;
-        if(temp==1) {
+        temp = temp & mask;
+        if (temp == 1) {
           System.out.print(j + " ");
         }
-        
+
       }
     }
+    scanner.close();
   }
 
 }

@@ -10,12 +10,11 @@ public class Main {
     int y = scanner.nextInt();
     // find gcd lcm
 
-
-
     int gcd = (x > y ? gcd(x, y) : gcd(y, x));
-    int lcm = x*y/gcd;
+    int lcm = x * y / gcd;
     System.out.println(gcd);
     System.out.println(lcm);
+    scanner.close();
   }
 
   public static int gcd(int x, int y) {
@@ -23,7 +22,7 @@ public class Main {
       int tmp = x;
       x = y;
       y = tmp % y;
-      
+
     }
     return x;
   }
