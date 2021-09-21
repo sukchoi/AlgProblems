@@ -9,12 +9,13 @@ public class Main {
     int th = scanner.nextInt();
     int[] d = new int[num];
     int j = 0;
-    for(int i = 1; i<=num;i++) {
-      if(num%i==0) {
+    for (int i = 1; i <= num; i++) {
+      if (num % i == 0) {
         d[j++] = i;
-        
+
       }
     }
-    System.out.println(d[th-1]);
+    System.out.println(d[th - 1]);
+    scanner.close();
   }
 }
