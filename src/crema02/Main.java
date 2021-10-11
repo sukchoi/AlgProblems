@@ -1,7 +1,5 @@
 package crema02;
 
-import java.util.*;
-
 public class Main {
   public static void main(String[] args) {
     int input = 112233445;
