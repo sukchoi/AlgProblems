@@ -13,9 +13,9 @@ public class Main {
     str = str.trim();
     String[] splitStr = str.split(" ");
 
-//    for (String s : splitStr)
-//      System.out.println(s);
-    if (splitStr[0] == "" )
+    // for (String s : splitStr)
+    // System.out.println(s);
+    if (splitStr[0] == "")
       System.out.println(0);
     else
       System.out.println(splitStr.length);
